@@ -1,0 +1,25 @@
+h1,p {
+   background:black;
+   font:bold;
+   margin: auto;
+   border:0.5rem outset linen;
+}
+
+ul {
+  background:darkgreen;
+  font-style: oblique;
+  margin: auto;
+  border-color:darkgreen;
+}
+
+h2 {
+  background:grey;
+  font:bold;
+  border:0.5rem outset navyblue;
+
+}
+
+h3 {
+  background:grey;
+  border:0.5rem outset green; 
+}
