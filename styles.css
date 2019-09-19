@@ -1,12 +1,13 @@
 h1,p {
-   background:darkgrey;
+   background:black;
    font:bold;
    margin: auto;
-   border:0.5rem outset linen;
+   border:2px;
+   border-color: linen;
 }
 
 ul {
-  background:darkgreen;
+  background:black;
   font-style: oblique;
   margin: auto;
   border-color:darkgreen;
@@ -15,16 +16,19 @@ ul {
 h2 {
   background:grey;
   font:bold;
-  border:0.5rem outset navyblue;
+  border:2px;
+  border-color: grey;
 
 }
 
 h3 {
-  background:grey;
-  border:0.5rem outset green; 
+  background:black;
+  border:3px;
+  border-color: purple;
 }
 
 h4 {
-background:grey; 
-border:0.5rem outset linen; 
+background:grey;
+border-color: darkolivegreen;
+border:linen;
 }
