@@ -1,5 +1,22 @@
-h1,p {
-   background:black;
+body {
+
+  font-style:normal;
+}
+
+
+li {
+  padding:10px;
+  margin: 50px 50px 50px 50px;
+display: inline;
+border:5px;
+border-color: red;
+}
+
+
+
+
+h1 {
+   background:tan;
    font:bold;
    margin: auto;
    border:2px;
@@ -7,9 +24,8 @@ h1,p {
 }
 
 ul {
-  background:black;
+  background:tan;
   font-style: oblique;
-  margin: auto;
   border-color:darkgreen;
 }
 
@@ -22,13 +38,27 @@ h2 {
 }
 
 h3 {
-  background:black;
+  background:purple;
   border:3px;
   border-color: purple;
 }
 
 h4 {
-background:grey;
+background:purple;
 border-color: darkolivegreen;
 border:linen;
+}
+
+a {
+  width:10%;
+  height:0;
+  padding-bottom:10%
+  background:orange;
+
+}
+
+p {
+  background-color: green;
+  display:inline-block;
+  margin: auto;
 }
