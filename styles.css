@@ -64,6 +64,15 @@ p {
 }
 
 img.hobby {
- border: 2px soild black;
+ border: 5px soild;
+ border-color: black
   width: 150px ; height: 150px;
+}
+
+img.logo {
+ border: 5px solid;
+ border-color: lightblue;
+ width: 65px; height: 65px;
+ border-radius: 25%;
+
 }
