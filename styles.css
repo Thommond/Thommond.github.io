@@ -62,3 +62,8 @@ p {
   display:inline-block;
   margin: auto;
 }
+
+img {
+ border: 2px soild black; 
+  width: 25px ; height: 25px;
+}
