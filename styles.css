@@ -63,7 +63,7 @@ p {
   margin: auto;
 }
 
-img {
- border: 2px soild black; 
-  width: 25px ; height: 25px;
+img.hobby {
+ border: 2px soild black;
+  width: 150px ; height: 150px;
 }
