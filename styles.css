@@ -1,3 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+
+
+*, *::before, *::after {
+box-sizing: border-box;
+
+}
+
+
+
 body {
 
   font-style:normal;
@@ -38,13 +50,13 @@ h2 {
 }
 
 h3 {
-  background:purple;
+  background:white;
   border:3px;
   border-color: purple;
 }
 
 h4 {
-background:purple;
+background:white;
 border-color: darkolivegreen;
 border:linen;
 }
@@ -64,15 +76,38 @@ p {
 }
 
 img.hobby {
- border: 5px soild;
- border-color: black
-  width: 150px ; height: 150px;
+ border: 10px soild;
+ border-color: black;
+  width: 170px ; height: 150px;
+  float: left;
+  margin: 30px 10px 10px 10px;
 }
 
 img.logo {
  border: 5px solid;
  border-color: lightblue;
- width: 65px; height: 65px;
+ width: 150px; height: 150px;
  border-radius: 25%;
+ float: left;
+ margin: 30px 10px 10px 10px;
+}
 
+li.Nav {
+display: inline;
+background-color: orange;
+border:10px;
+width: 35px;
+height: 25px;
+
+}
+
+header {
+  background-color:orange,lightgreen;
+}
+footer {
+  background-color: lightblue, orange;
+}
+
+article {
+  background-color: black, darkgrey;
 }
