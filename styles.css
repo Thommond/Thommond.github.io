@@ -2,6 +2,27 @@ html {
   box-sizing: border-box;
 }
 
+header {
+
+  background: lightgreen;
+
+}
+
+article {
+
+  background: darkgrey ;
+
+}
+
+footer {
+
+  background: lightblue;
+}
+
+html {
+  box-sizing: border-box;
+}
+
 
 *, *::before, *::after {
 box-sizing: border-box;
@@ -28,7 +49,6 @@ border-color: red;
 
 
 h1 {
-   background:tan;
    font:bold;
    margin: auto;
    border:2px;
@@ -36,13 +56,11 @@ h1 {
 }
 
 ul {
-  background:tan;
   font-style: oblique;
   border-color:darkgreen;
 }
 
 h2 {
-  background:grey;
   font:bold;
   border:2px;
   border-color: grey;
@@ -50,13 +68,11 @@ h2 {
 }
 
 h3 {
-  background:white;
   border:3px;
   border-color: purple;
 }
 
 h4 {
-background:white;
 border-color: darkolivegreen;
 border:linen;
 }
@@ -65,19 +81,17 @@ a {
   width:10%;
   height:0;
   padding-bottom:10%
-  background:orange;
 
 }
 
 p {
-  background-color: green;
   display:inline-block;
   margin: auto;
 }
 
 img.hobby {
  border: 10px soild;
- border-color: black;
+ border-color: black
   width: 170px ; height: 150px;
   float: left;
   margin: 30px 10px 10px 10px;
@@ -94,20 +108,20 @@ img.logo {
 
 li.Nav {
 display: inline;
-background-color: orange;
 border:10px;
 width: 35px;
 height: 25px;
 
-}
 
-header {
-  background-color:orange,lightgreen;
-}
-footer {
-  background-color: lightblue, orange;
 }
 
 article {
-  background-color: black, darkgrey;
+  background-color:
+}
+
+div.menu {
+
+display: block;
+justify-content: space-between;
+float: left;
 }
