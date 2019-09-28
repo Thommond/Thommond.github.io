@@ -2,131 +2,135 @@ html {
   box-sizing: border-box;
 }
 
-header {
-
-  background: lightgreen;
-
-
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
+body {
+  background-color: #613b2e;
+  font-size: normal;
+}
+
+header {
+  background: #577731;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+
 article {
-
-  background: darkgrey ;
-
+  background: darkgrey;
 }
 
 footer {
-
+  position: fixed;
   background: lightblue;
-
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 40px;
 }
 
-html {
-  box-sizing: border-box;
+nav {
+  border: 5px solid black;
+  background-color: lightgreen;
 }
 
-
-*, *::before, *::after {
-box-sizing: border-box;
-
-}
-
-
-
-body {
-
-  font-style:normal;
-}
-
-
-li {
-  padding: 80px;
-text-align: center;
-display: inline;
-
-}
-
-
-
-
-h1 {
-   font:bold;
-   margin: auto;
-   border:2px;
-   border-color: linen;
-}
 
 ul {
   font-style: oblique;
-  border-color:darkgreen;
-}
-
-h2 {
-  font:bold;
-  border:2px;
-  border-color: grey;
-
-}
-
-h3 {
-  border:3px;
-  border-color: purple;
-}
-
-h4 {
-border-color: darkolivegreen;
-border:linen;
 }
 
 a {
-  width:10%;
-  height:0;
-  padding-bottom:10%
-
+  text-decoration: none;
+  font-family:sans-serif;
 }
 
-p {
-  display:inline-block;
-  margin: auto;
+li a {
+  color:black;
 }
 
 img.hobby {
- border: 10px soild;
- border-color: black
-  width: 170px ; height: 150px;
-  float: left;
-  margin: 30px 10px 10px 10px;
+  border: 10px soild;
+  border-color: black width: 170px;
+  height: 150px;
 }
 
 img.logo {
- border: 5px solid;
- border-color: lightblue;
- width: 150px; height: 150px;
- border-radius: 25%;
- float: left;
- margin: 30px 10px 10px 10px;
+  border: 5px solid;
+  border-color: lightblue;
+  width: 200px;
+  height: 150px;
+  border-radius: 25%;
 }
 
-li.Nav {
-display: inline;
-border:10px;
-width: 35px;
-height: 25px;
 
-
+div.home {
+  display: flex;
+  flex-direction: row;
 }
 
-article {
-  background-color:
+a:hover {
+  text-decoration: none;
+  color:orange;
+  border-bottom: 2px solid black;
 }
 
-div.menu {
-
-display: block;
-justify-content: space-between;
-float: left;
+.menu {
+  margin-top: 15px;
 }
 
-li.Nav {
-  font-size: 25px;
+.menu > li {
+  display: inline;
+   margin-right: 50px;
 }
+
+
+.dropdown:hover .features-menu {
+  display: flex;
+  flex-direction: column;
+  background: green;
+  border-radius: 5px;
+  padding-top: 60px;
+   padding-left: 40px;
+   padding-right: 40px;
+position: absolute;
+top: -25px;
+left: 10px;
+}
+
+.features-menu li {
+  list-style: none;
+  border-bottom: 1px solid black;
+   z-index: 1;
+
+  padding: 1px 1px 1px 1px;
+  margin: 10px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown > span {
+  z-index: 2;
+  position: relative;
+  cursor: default;
+}
+
+.features-menu {
+  display: none;
+}
+
+.features-menu li a:hover {
+  border-bottom: none;
+  border-left: 2px solid black;
+}
+
+ nav li {
+   padding-left: 50px;
+   padding-right: 50px;
