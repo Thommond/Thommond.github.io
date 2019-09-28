@@ -21,13 +21,11 @@ header {
   padding: 50px;
 }
 
-
 article {
   background: darkgrey;
 }
 
 footer {
-  position: fixed;
   background: lightblue;
   display: flex;
   justify-content: space-around;
@@ -40,18 +38,17 @@ nav {
   background-color: lightgreen;
 }
 
-
 ul {
   font-style: oblique;
 }
 
 a {
   text-decoration: none;
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
 
 li a {
-  color:black;
+  color: black;
 }
 
 img.hobby {
@@ -68,7 +65,6 @@ img.logo {
   border-radius: 25%;
 }
 
-
 div.home {
   display: flex;
   flex-direction: row;
@@ -76,7 +72,7 @@ div.home {
 
 a:hover {
   text-decoration: none;
-  color:orange;
+  color: orange;
   border-bottom: 2px solid black;
 }
 
@@ -84,11 +80,10 @@ a:hover {
   margin-top: 15px;
 }
 
-.menu > li {
+.menu>li {
   display: inline;
-   margin-right: 50px;
+  margin-right: 50px;
 }
-
 
 .dropdown:hover .features-menu {
   display: flex;
@@ -96,18 +91,17 @@ a:hover {
   background: green;
   border-radius: 5px;
   padding-top: 60px;
-   padding-left: 40px;
-   padding-right: 40px;
-position: absolute;
-top: -25px;
-left: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  top: -25px;
+  left: 10px;
 }
 
 .features-menu li {
   list-style: none;
   border-bottom: 1px solid black;
-   z-index: 1;
-
+  z-index: 1;
   padding: 1px 1px 1px 1px;
   margin: 10px;
 }
@@ -116,7 +110,7 @@ left: 10px;
   position: relative;
 }
 
-.dropdown > span {
+.dropdown>span {
   z-index: 2;
   position: relative;
   cursor: default;
@@ -131,6 +125,6 @@ left: 10px;
   border-left: 2px solid black;
 }
 
- nav li {
-   padding-left: 50px;
-   padding-right: 50px;
+nav li {
+  padding-left: 50px;
+  padding-right: 50px;
