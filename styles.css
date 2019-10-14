@@ -449,6 +449,8 @@ article.pod {
   flex-wrap: wrap;
 }
 
+
+
 section.aboutmesummary {
   display: flex;
   justify-content: center;
@@ -608,6 +610,10 @@ section.polices div.divs {
   height: 1200px;
   border: none;
   max-width: 1400px;
+}
+
+section.polices div.divs div {
+  height:350px;
 }
 
 section.polices {
