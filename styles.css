@@ -67,8 +67,29 @@ article.politicsthree {
  styles */
 section {
   background-color: #D4FFD5;
+<<<<<<< HEAD
+=======
   padding: 10px;
   margin: 10px;
+}
+
+section.stand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.stand div {
+>>>>>>> 2a1793a694ae58861ceb4036b11ba57881c2a92b
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+section.stand div ul {
+  text-align: left;
 }
 
 section.stand {
