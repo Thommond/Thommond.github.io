@@ -14,12 +14,13 @@ body {
   flex-direction: column;
   background-color: #613b2e;
   font-size: normal;
+  font-family: Be Vietnam
 }
 
 /*Header
   styles*/
 header {
-  background-color: darkgreen;
+  background-color: #598A5B;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,48 +32,86 @@ header nav {
 }
 
 header {
-  color: lightblue;
+  color: #66B6E8;
+}
+
+p {
+  font-family: Raleway;
 }
 
 /*Article
    styles*/
 article {
-  padding: 25px;
   margin: auto;
   max-width: 1480px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: darkgrey;
+  background: #9EFFB1;
   width: 100%;
 }
 
 article a:hover {
   text-decoration: line-through;
-  color: darkgreen;
+  color: lightblue;
   border-bottom: none;
   cursor: wait;
+}
+
+article.politicsthree {
+  flex-direction: row;
 }
 
 /*Section
  styles */
 section {
-  background-color: #fff;
+  background-color: #D4FFD5;
   padding: 10px;
   margin: 10px;
+}
+
+section.stand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.stand div {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+section.stand div ul {
+  text-align: left;
 }
 
 /*Footer
 styles*/
 footer {
-  background: lightblue;
+  background: #6A806B;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   padding: 0;
-  margin: 0;
+  text-align: center;
+}
+
+footer div.footerone {
+  font-size: 18pt;
+}
+
+footer div.footertwo p:last-child {
+  font-size: 25pt;
+  max-width: 1000px;
+}
+
+footer div.footertwo p:first-child, h5 {
+  font-size: 20pt;
 }
 
 footer p {
@@ -90,7 +129,7 @@ footer h5 {
 styles*/
 nav {
   border: 5px solid black;
-  background-color: lightgreen;
+  background-color: #A5C9AB;
 }
 
 ul {
@@ -149,19 +188,22 @@ div.home {
 div.mayor {
   background-color: #fff;
   padding: 10px;
-  border-bottom: 1px solid black;
-}
-
-div.mayor:last-child {
-  border-bottom: none;
+  margin: 10px;
+  border: 1px solid black;
+  height: 300px;
+  width: 320px;
+  border-radius: 25%;
+  text-align: center;
 }
 
 /*Divs in the
 podcast page*/
 div.podcast {
-  background-color: white;
+  background-color: #fbfbfb;
   border-radius: 5%;
-  border-bottom: 1px solid black;
+  border: 1px solid black;
+  height: 400px;
+  margin: 10px;
 }
 
 div.podcast:last-child {
@@ -170,7 +212,6 @@ div.podcast:last-child {
 
 div.podcast:nth-child(1) {
   width: 200px;
-  ;
   height: 150px;
 }
 
@@ -202,6 +243,52 @@ div.podcast:nth-child(5) {
   padding: 10px;
 }
 
+/*My politics page div*/
+div.consider {
+  height: 250px;
+  width: 500px;
+  border: 1px solid black;
+}
+
+div.list {
+  height: 300px;
+  width: 500px;
+  border: 1px solid black;
+}
+
+/*liberty page divs*/
+section.polices div {
+  width: 300px;
+  height: 280px;
+  text-align: center;
+  border: 1px solid grey;
+  margin: 10px;
+  padding: 10px;
+}
+
+div.values {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+section.polices div.title {
+  width: 300px;
+  height: 100px;
+  border: none;
+  flex-wrap: nowrap;
+}
+
+/*story page divs*/
+div.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+/*home page divs*/
 div.well {
   width: 60%;
   height: 400px;
@@ -228,7 +315,7 @@ div.well h3 {
    and anchors*/
 a:hover {
   text-decoration: none;
-  color: orange;
+  color: #0CB39C;
   border-bottom: 2px solid black;
 }
 
@@ -244,7 +331,7 @@ a:hover {
 .dropdown:hover .features-menu {
   display: flex;
   flex-direction: column;
-  background: lightgreen;
+  background: #A7C9A8;
   border: 3px solid black;
   border-radius: 5px;
   padding-top: 60px;
@@ -329,6 +416,12 @@ article.homepage {
   text-align: justify;
 }
 
+article.pod {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 section.aboutmesummary {
   display: flex;
   justify-content: center;
@@ -371,6 +464,14 @@ article.homepage h2 {
   padding: 10px;
   border-radius: 50%;
   border: 1px solid linen;
+}
+
+article.homepage h2:first-child {
+  border:none;
+  border-radius: 0%;
+  background: none;
+  border-bottom: 1px solid white;
+
 }
 
 article.homepage section p {
@@ -470,6 +571,38 @@ section.reading p, h3, img {
   margin: 5px;
 }
 
+/*liberty page styles for sections*/
+section.polices div.divs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  height: 1200px;
+  border: none;
+  max-width: 1400px;
+}
+
+section.polices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.current {
+  background: none;
+  width: 480px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+section.bus, section.lamb {
+  max-width: 670px;
+}
+
 /*Media only styles
 for different screen sizes*/
 /*Max-width
@@ -482,104 +615,154 @@ for different screen sizes*/
     align-items: center;
     text-align: center;
   }
-}
 
-@media only screen and (max-width:1015px) {
+  @media only screen and (max-width:1015px) {
 
-  /*nav media
+    /*nav media
 styles*/
-  nav ul {
-    display: flex;
-    flex-direction: column;
-  }
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-  nav li {
-    width: 100%;
-    padding: 100px 300px;
-    font-size: 35pt;
-  }
+    nav li {
+      width: 100%;
+      font-style: italic;
+      border-bottom: 2px solid black;
+      padding: 20px;
+    }
 
-  nav ul.menu:last-child {
-    padding: 300px;
-  }
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid black;
+    }
 
-  .dropdown:hover .features-menu {
-    display: flex;
-    flex-direction: column;
-    background: lightgreen;
-    border: 3px solid black;
-    border-radius: 5px;
-    padding-top: 60px;
-    padding-left: 40px;
-    padding-right: 40px;
-    position: absolute;
-    top: 90px;
-    left: 230px;
-  }
+    /*dropdown media styles*/
+    .dropdown {
+      font-style: Be Vietnam;
+    }
 
-  /*article media styles*/
-  article.welcome {
-    display: flex;
-    width: 100%;
-    background-color: ;
-  }
+    .dropdown:hover .features-menu {
+      display: flex;
+      flex-direction: column;
+      background-color: #A7C9A8;
+      border: 3px solid black;
+      border-radius: 5px;
+      padding-top: 60px;
+      padding-left: 40px;
+      padding-right: 40px;
+      position: absolute;
+      top: -2px;
+      left: 1px;
+      width: 220px;
+    }
 
-  article {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 28pt;
-  }
+    /*article media styles*/
+    article.welcome {
+      display: flex;
+      width: 100%;
+    }
 
-  /*footer media styles*/
-  footer {
-    font-size: 28pt;
-  }
+    article {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 28pt;
+    }
 
-  /*section media styles*/
-  section {}
+    article.mainpersonal section {
+      height: 400px;
+    }
 
-  /*image media styles*/
-  img.h {
-    width: 400px;
-    height: 400px;
-  }
+    article.pod {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
 
-  img.summary {
-    width: 125px;
-    height: 125px;
-  }
+    /*footer media styles*/
+    footer {
+      font-size: 28pt;
+    }
 
-  img {
-    width: 150px;
-    height: 150px;
-  }
+    /*section media styles*/
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
 
-  /*headeing
+    section ul {
+      text-align: left;
+    }
+
+    article.pod div {
+      height: 500px;
+    }
+
+    /*div media styles*/
+    div.mayor {
+      height: 400px;
+    }
+
+    /*image media styles*/
+    img.h {
+      width: 400px;
+      height: 400px;
+    }
+
+    img.summary {
+      width: 125px;
+      height: 125px;
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+    }
+
+    /*headeing
   media styles*/
-  h3 {
-    font-size: 20pt;
-  }
+    h3 {
+      font-size: 20pt;
+    }
 
-  h2 {
-    font-size: 25pt;
-  }
+    h2 {
+      font-size: 25pt;
+    }
 
-  p, ul {
-    font-size: 14pt;
-  }
+    p, ul {
+      font-size: 14pt;
+    }
 
-  /*anchor
+    /*anchor
   styles*/
-  header a {
-    color: white;
-    font-size: 20pt;
+    header a {
+      color: white;
+      font-size: 20pt;
+    }
+
+    nav a {
+      color: black;
+    }
   }
 
-  nav a {
-    color: black;
+  @media only screen and (max-width:1080px) {
+    section.polices div.divs {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      width: 100%;
+      margin: auto;
+    }
+
+    section.polices div.divs div {
+      height: 400px;
+    }
+
+    section.polices {
+      height: 2600px;
+    }
   }
-}
-
-@media only screen and (max-width:1000px) {}
-
-/*Min-width queries*/
