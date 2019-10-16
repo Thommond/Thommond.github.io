@@ -1,0 +1,813 @@
+html {
+  box-sizing: border-box;
+  height: auto;
+  /*Box sizing*/
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/*Body
+  styles*/
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #613b2e;
+  font-size: normal;
+  font-family: Be Vietnam
+}
+
+/*Header
+  styles*/
+header {
+  background-color: #598A5B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+header nav {
+  color: black;
+}
+
+header {
+  color: #66B6E8;
+}
+
+p {
+  font-family: Raleway;
+}
+
+/*Article
+   styles*/
+article {
+  margin: auto;
+  max-width: 1480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #9EFFB1;
+  width: 100%;
+}
+
+article a:hover {
+  text-decoration: line-through;
+  color: lightblue;
+  border-bottom: none;
+  cursor: wait;
+}
+
+article.politicsthree {
+  flex-direction: row;
+}
+
+/*Section
+ styles */
+section {
+  background-color: #D4FFD5;
+  <<<<<<< HEAD=======padding: 10px;
+  margin: 10px;
+}
+
+section.stand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.stand div {
+  >>>>>>>2a1793a694ae58861ceb4036b11ba57881c2a92b padding: 10px;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+section.stand div ul {
+  text-align: left;
+}
+
+section.stand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.stand div {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  height: 350px;
+  background-color: #fbfbfb;
+}
+
+section.stand div ul {
+  text-align: left;
+}
+
+article.mypolitics section.current {
+  height: 400px;
+  background-color: #fbfbfb;
+}
+
+/*Footer
+styles*/
+footer {
+  background: #6A806B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+footer div.footerone {
+  font-size: 18pt;
+}
+
+footer div.footertwo p:last-child {
+  font-size: 25pt;
+  max-width: 100%;
+}
+
+footer div.footertwo p:first-child,
+h5 {
+  font-size: 20pt;
+}
+
+footer p {
+  padding: 5px;
+  margin: 0;
+}
+
+footer h5 {
+  border-bottom: 1px solid black;
+  padding: 5px;
+  margin: 0;
+}
+
+/*Nav
+styles*/
+nav {
+  border: 5px solid black;
+  background-color: #A5C9AB;
+}
+
+ul {
+  font-style: oblique;
+}
+
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+li a {
+  color: black;
+}
+
+/*Specfic Images
+   styles*/
+img.hobby {
+  height: 150px;
+  width: 250px;
+  float: right;
+}
+
+img.logo {
+  border: 5px solid;
+  border-color: lightblue;
+  width: 250px;
+  height: 160px;
+  border-radius: 25%;
+}
+
+img.summary {
+  border: none;
+  width: 200px;
+  height: 150px;
+  padding: 5px;
+  margin: 0;
+  float: left;
+}
+
+img {
+  width: 300px;
+  height: 250px;
+  border: 2px solid black;
+}
+
+/*div
+ styles*/
+div.home {
+  display: flex;
+  flex-direction: row;
+}
+
+/*Divs in the
+ mayor page*/
+div.mayor {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  height: 300px;
+  width: 320px;
+  border-radius: 25%;
+  text-align: center;
+}
+
+/*Divs in the
+podcast page*/
+div.podcast {
+  background-color: #fbfbfb;
+  border-radius: 5%;
+  border: 1px solid black;
+  height: 400px;
+  margin: 10px;
+}
+
+div.podcast:last-child {
+  border-bottom: none;
+}
+
+div.podcast:nth-child(1) {
+  width: 200px;
+  height: 150px;
+}
+
+div.podcast ul {
+  list-style-type: circle;
+}
+
+div.podcast:nth-child(2) {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+}
+
+div.podcast:nth-child(3) {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+}
+
+div.podcast:nth-child(4) {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+}
+
+div.podcast:nth-child(5) {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+}
+
+/*My politics page div*/
+div.consider {
+  height: 250px;
+  width: 500px;
+  border: 1px solid black;
+}
+
+div.list {
+  height: 300px;
+  width: 500px;
+  border: 1px solid black;
+}
+
+/*liberty page divs*/
+section.polices div {
+  width: 300px;
+  height: 280px;
+  text-align: center;
+  border: 1px solid grey;
+  margin: 10px;
+  padding: 10px;
+}
+
+div.values {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+section.polices div.title {
+  width: 300px;
+  height: 100px;
+  border: none;
+  flex-wrap: nowrap;
+}
+
+/*story page divs*/
+div.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+/*home page divs*/
+div.well {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+div.well p {
+  font-size: 18pt;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+div.well h3 {
+  font-size: 22pt;
+  text-align: center;
+  border-bottom: 2px solid yellow;
+}
+
+/*Dropdown styles
+   and anchors*/
+a:hover {
+  text-decoration: none;
+  color: #0CB39C;
+  border-bottom: 2px solid black;
+}
+
+.menu {
+  margin-top: 15px;
+}
+
+.menu>li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.dropdown:hover .features-menu {
+  display: flex;
+  flex-direction: column;
+  background: #A7C9A8;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  top: -25px;
+  left: 10px;
+}
+
+.features-menu li {
+  list-style: none;
+  border-bottom: 1px solid black;
+  z-index: 1;
+  padding: 1px 1px 1px 1px;
+  margin: 10px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown>span {
+  z-index: 2;
+  position: relative;
+  cursor: default;
+}
+
+.features-menu {
+  display: none;
+}
+
+.features-menu li a:hover {
+  border-bottom: none;
+  border-left: 2px solid black;
+}
+
+/*General styles for headings and nav*/
+nav li {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h1 {
+  border-bottom: 2px solid lightgreen;
+  padding: 0;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  border-bottom: 1px solid black;
+  color: navy;
+}
+
+h3 {
+  color: #;
+}
+
+h4 {
+  display: inline;
+  padding: 5px;
+  color: #2b7b74;
+}
+
+h5 {
+  color: #883217
+}
+
+/*Homepage styles*/
+article.homepage {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: justify;
+}
+
+article.pod {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+section.aboutmesummary {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  height: auto;
+  margin-bottom: 34px;
+  border: 2px solid black;
+  background-color: red;
+  border-radius: 25%;
+}
+
+section.mypoliticssummary {
+  padding-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+  border: 2px solid black;
+  background-color: blue;
+  color: #fff;
+}
+
+section.myworksummary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 450px;
+  height: 400px;
+  border: 2px solid black;
+  background-color: yellow;
+  border-radius: 25%;
+  color: navy;
+}
+
+article.homepage h2 {
+  background-color: tan;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid linen;
+}
+
+article.homepage h2:first-child {
+  border: none;
+  border-radius: 0%;
+  background: none;
+  border-bottom: 1px solid white;
+
+}
+
+article.homepage section p {
+  padding: 10px;
+}
+
+article.homepage section.mypoliticssummary img {
+  border-radius: 15%;
+}
+
+/*Main personal page styles*/
+section.outdoors {
+  background-color: tan;
+  width: 600px;
+  height: 250px;
+  text-align: justify;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+section.outdoors h3 {
+  padding: 10px;
+  display: inline;
+  color: white;
+  background-color: black;
+}
+
+section.reading {
+  background-color: white;
+  width: 600px;
+  height: 250px;
+  text-align: justify;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+section.reading h3 {
+  padding: 10px;
+  display: inline;
+  color: white;
+  background-color: black;
+}
+
+section.cycling {
+  background-color: tan;
+  width: 600px;
+  height: 250px;
+  text-align: justify;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+section.cycling h3 {
+  padding: 10px;
+  display: inline;
+  color: white;
+  background-color: black;
+}
+
+section.facts {
+  background-color: #fff;
+  width: 600px;
+  height: 250px;
+  text-align: justify;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+section.facts h3 a {
+  color: white;
+  text-decoration: underline;
+}
+
+section.facts h3 a:hover {
+  color: yellow;
+}
+
+section.facts h3 {
+  padding: 10px;
+  display: inline;
+  color: white;
+  background-color: black;
+}
+
+section.outdoors p,
+h3,
+img {
+  padding: 5px;
+  margin: 5px;
+}
+
+section.cycling p,
+h3,
+img {
+  padding: 5px;
+  margin: 5px;
+}
+
+section.reading p,
+h3,
+img {
+  padding: 5px;
+  margin: 5px;
+}
+
+/*liberty page styles for sections*/
+section.polices div.divs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  height: 1200px;
+  border: none;
+  max-width: 1400px;
+}
+
+section.polices div.divs div {
+  height: 350px;
+}
+
+section.polices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.current {
+  background: none;
+  width: 480px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+section.bus,
+section.lamb {
+  max-width: 670px;
+}
+
+/*Media only styles
+for different screen sizes*/
+/*Max-width
+   queries*/
+@media only screen and (max-width:1475px) {
+  article.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  @media only screen and (max-width:1015px) {
+
+    /*nav media
+styles*/
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    nav li {
+      width: 100%;
+      font-style: italic;
+      border-bottom: 2px solid black;
+      padding: 20px;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid black;
+    }
+
+    /*dropdown media styles*/
+    .dropdown {
+      font-style: Be Vietnam;
+    }
+
+    .dropdown:hover .features-menu {
+      display: flex;
+      flex-direction: column;
+      background-color: #A7C9A8;
+      border: 3px solid black;
+      border-radius: 5px;
+      padding-top: 60px;
+      padding-left: 40px;
+      padding-right: 40px;
+      position: absolute;
+      top: -2px;
+      left: 1px;
+      width: 220px;
+    }
+
+    /*article media styles*/
+    article.welcome {
+      display: flex;
+      width: 100%;
+    }
+
+    article {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 28pt;
+    }
+
+    article.mainpersonal section {
+      height: 400px;
+    }
+
+    article.pod {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    /*footer media styles*/
+    footer {
+      font-size: 28pt;
+    }
+
+    /*section media styles*/
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    section ul {
+      text-align: left;
+    }
+
+    article.pod div {
+      height: 500px;
+    }
+
+    /*div media styles*/
+    div.mayor {
+      height: 400px;
+    }
+
+    /*image media styles*/
+    img.h {
+      width: 400px;
+      height: 400px;
+    }
+
+    img.summary {
+      width: 125px;
+      height: 125px;
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+    }
+
+    /*headeing
+  media styles*/
+    h3 {
+      font-size: 20pt;
+    }
+
+    h2 {
+      font-size: 25pt;
+    }
+
+    p,
+    ul {
+      font-size: 14pt;
+    }
+
+    /*anchor
+  styles*/
+    header a {
+      color: white;
+      font-size: 20pt;
+    }
+
+    nav a {
+      color: black;
+    }
+  }
+
+  @media only screen and (max-width:1080px) {
+    section.polices div.divs {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      width: 100%;
+      margin: auto;
+    }
+
+    section.polices div.divs div {
+      height: 400px;
+    }
+
+    section.polices {
+      height: 2600px;
+    }
+  }
