@@ -67,8 +67,7 @@ article.politicsthree {
  styles */
 section {
   background-color: #D4FFD5;
-<<<<<<< HEAD
-=======
+
   padding: 10px;
   margin: 10px;
 }
@@ -653,6 +652,10 @@ for different screen sizes*/
 
     /*nav media
 styles*/
+
+body{
+  margin: auto;
+}
     nav ul {
       display: flex;
       flex-direction: column;
@@ -731,8 +734,12 @@ styles*/
       text-align: left;
     }
 
-    article.pod div {
-      height: 500px;
+    article.pod div.podcast {
+      height:250px;
+      width:500px;
+      display:flex;
+      flex-direction: column;
+      text-align: center;
     }
 
     /*div media styles*/
