@@ -806,3 +806,10 @@ body{
       height: 2600px;
     }
   }
+
+  @media only screen and (max-width:630px) {
+    article.mainpersonal section {
+      width: 90%;
+      height: auto; 
+    }
+  }
