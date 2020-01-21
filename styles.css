@@ -374,6 +374,7 @@ div.well h3 {
 
 /*Dropdown styles
    and anchors*/
+   /*
 a:hover {
   text-decoration: none;
   color: #0CB39C;
@@ -429,7 +430,7 @@ a:hover {
   border-bottom: none;
   border-left: 2px solid black;
 }
-
+*/
 /*General styles for headings and nav*/
 nav li {
   padding-left: 50px;
