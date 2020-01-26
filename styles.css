@@ -67,7 +67,6 @@ article.politicsthree {
  styles */
 section {
   background-color: #D4FFD5;
-
   padding: 10px;
   margin: 10px;
 }
@@ -80,7 +79,6 @@ section.stand {
 }
 
 section.stand div {
-
   padding: 10px;
   margin: 10px;
   text-align: center;
@@ -98,7 +96,7 @@ section.stand {
   align-items: center;
 }
 
- section.stand div {
+section.stand div {
   padding: 10px;
   margin: 10px;
   text-align: center;
@@ -111,10 +109,11 @@ section.stand div ul {
   text-align: left;
 }
 
- article.mypolitics section.current  {
+article.mypolitics section.current {
   height: 400px;
   background-color: #fbfbfb;
 }
+
 /*Footer
 styles*/
 footer {
@@ -159,7 +158,13 @@ nav {
 }
 
 ul {
+  list-style: none;
   font-style: oblique;
+}
+
+ul.RegularList {
+list-style: initial;
+font-style: italic;
 }
 
 a {
@@ -283,8 +288,7 @@ div.list {
 }
 
 div.gov {
-  padding:20px;
-
+  padding: 20px;
 }
 
 /*liberty page divs*/
@@ -311,32 +315,20 @@ section.polices div.title {
 }
 
 div.nap {
-background-color: #B35E56;
+  background-color: #B35E56;
 }
 
-div.gun {
+div.gun {}
 
-}
+div.drug {}
 
-div.drug {
+div.healthcare {}
 
-}
+div.taxes {}
 
-div.healthcare {
+div.foriegn {}
 
-}
-
-div.taxes {
-
-}
-
-div.foriegn {
-
-}
-
-div.public {
-
-}
+div.public {}
 
 div.
 
@@ -374,7 +366,7 @@ div.well h3 {
 
 /*Dropdown styles
    and anchors*/
-   /*
+/*
 a:hover {
   text-decoration: none;
   color: #0CB39C;
@@ -484,8 +476,6 @@ article.pod {
   flex-wrap: wrap;
 }
 
-
-
 section.aboutmesummary {
   display: flex;
   justify-content: center;
@@ -531,11 +521,10 @@ article.homepage h2 {
 }
 
 article.homepage h2:first-child {
-  border:none;
+  border: none;
   border-radius: 0%;
   background: none;
   border-bottom: 1px solid white;
-
 }
 
 article.homepage section p {
@@ -648,7 +637,7 @@ section.polices div.divs {
 }
 
 section.polices div.divs div {
-  height:350px;
+  height: 350px;
 }
 
 section.polices {
@@ -688,10 +677,10 @@ for different screen sizes*/
 
     /*nav media
 styles*/
+    body {
+      margin: auto;
+    }
 
-body{
-  margin: auto;
-}
     nav ul {
       display: flex;
       flex-direction: column;
@@ -771,9 +760,9 @@ body{
     }
 
     article.pod div.podcast {
-      height:250px;
-      width:500px;
-      display:flex;
+      height: 250px;
+      width: 500px;
+      display: flex;
       flex-direction: column;
       text-align: center;
     }
@@ -825,6 +814,7 @@ body{
     }
   }
 
+  /*Media Queries*/
   @media only screen and (max-width:1080px) {
     section.polices div.divs {
       display: flex;
