@@ -30,37 +30,22 @@ a:hover {
   border-bottom: 2px solid black;
 }
 
-section.facts h3 a {
-  color: white;
-  text-decoration: underline;
-}
-
-section.facts h3 a:hover {
-  color: yellow;
-}
-
 /*Article Styles*/
-
 article {
   margin: auto;
   max-width: 1480px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   background-color: #9BAFCC;
   width: 100%;
 }
 
 article.myWork {
   flex-wrap: wrap;
-
 }
 
 article.homepage {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   flex-direction: row;
   justify-content: space-around;
   text-align: justify;
@@ -83,9 +68,6 @@ body {
 
 /*div styles*/
 
-div.nave_container {
-  flex=direction: column;
-}
 div.well {
   width: 60%;
   height: 400px;
@@ -111,8 +93,6 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  padding: 0;
   text-align: center;
 }
 
@@ -125,31 +105,20 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 50px;
-  font-family: Raleway
-}
-
-header {
-  color: black;
-}
-
-header {
   color: #66B6E8;
+  height: auto;
 }
 
 /* heading styles */
 /* heading one */
 h1 {
   border-bottom: 2px solid grey;
-  padding: 0;
   color: navy;
 }
 
 /* heading two */
 h2 {
-  padding: 0;
   margin: 0;
-  display: flex;
-  justify-content: center;
   border-bottom: 1px solid black;
   color: navy;
 }
@@ -179,33 +148,13 @@ h3 {
   color: #000;
 }
 
-section.outdoors h3 {
+section.hobbies h3 {
   padding: 10px;
   display: inline;
   color: white;
   background-color: black;
 }
 
-section.reading h3 {
-  padding: 10px;
-  display: inline;
-  color: white;
-  background-color: black;
-}
-
-section.cycling h3 {
-  padding: 10px;
-  display: inline;
-  color: white;
-  background-color: black;
-}
-
-section.facts h3 {
-  padding: 10px;
-  display: inline;
-  color: white;
-  background-color: black;
-}
 
 /* heading four */
 h4 {
@@ -258,14 +207,15 @@ img.summary {
 
 /* list item
     styles */
+
 .menu li {
-  display: inline;
-  margin-right: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 nav li {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /*Nav
@@ -278,9 +228,6 @@ nav {
 
 /* Para
   styles */
-p {
-  font-family: Raleway;
-}
 
 div.well p {
   font-size: 18pt;
@@ -309,14 +256,21 @@ section {
   padding: 10px;
   margin: 10px;
   color: #fbfbfb;
-  border:1px solid #FDFAFF ;
-
+  border: 1px solid #FDFAFF;
 }
+
+#Projects {
+  width: 800px;
+}
+
+#Skills {}
+
+#Soft_Skills {}
+
 section.blog {
-width:800px;
-
-
+  width: 800px;
 }
+
 section.mywork {
   width: 500px;
   border: 1px dashed black;
@@ -341,7 +295,6 @@ section.aboutmesummary {
   border-radius: 25%;
 }
 
-
 section.myworksummary {
   display: flex;
   justify-content: center;
@@ -355,31 +308,7 @@ section.myworksummary {
   color: navy;
 }
 
-section.outdoors {
-  width: 600px;
-  height: 250px;
-  text-align: justify;
-  border: 1px solid black;
-  margin: 10px;
-}
-
-section.reading {
-  width: 600px;
-  height: 250px;
-  text-align: justify;
-  border: 1px solid black;
-  margin: 10px;
-}
-
-section.cycling {
-  width: 600px;
-  height: 250px;
-  text-align: justify;
-  border: 1px solid black;
-  margin: 10px;
-}
-
-section.facts {
+section.hobbies {
   width: 600px;
   height: 250px;
   text-align: justify;
@@ -412,20 +341,11 @@ footer div.footertwo p:first-child, h5 {
   margin-top: 15px;
 }
 
-section.outdoors p, h3, img {
+section.hobbies p, h3, img {
   padding: 5px;
   margin: 5px;
 }
 
-section.cycling p, h3, img {
-  padding: 5px;
-  margin: 5px;
-}
-
-section.reading p, h3, img {
-  padding: 5px;
-  margin: 5px;
-}
 
 h1, h2, h3, nav ul {
   font-family: Be Vietnam;
@@ -535,10 +455,14 @@ for different screen sizes*/
 @media only screen and (max-width: 1843px) {
 
   /*making header responsive*/
+
   /*nav styles*/
   nav {
     width: 300px;
     height: 300px;
+    padding: 0;
+    margin: 0;
+
   }
 
   nav ul {
@@ -551,9 +475,10 @@ for different screen sizes*/
   }
 
   /*div styles */
-
   img.logo {
     width: 400px;
     height: 400px;
+    margin: 0;
+    padding: 0;
   }
 }
