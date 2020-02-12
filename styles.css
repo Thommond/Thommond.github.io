@@ -13,6 +13,17 @@ a {
   font-family: sans-serif;
 }
 
+ footer a {
+   font-size: 22pt;
+   color: black;
+ }
+
+ footer a:hover {
+   color: red;
+   cursor: wait;
+   font-weight: bold;
+ }
+
 article a:hover {
   text-decoration: line-through;
   color: lightblue;
@@ -216,15 +227,21 @@ img.summary {
 nav li {
   padding-left: 50px;
   padding-right: 50px;
+  display: inline;
 }
 
 /*Nav
   styles*/
 nav {
   border: 5px solid black;
-  font-size: 18pt;
+  font-size: 24pt;
   background-color: #C2DAFF;
+  width: 1200px;
+  height: 100px;
+
 }
+
+
 
 /* Para
   styles */
@@ -373,12 +390,11 @@ for different screen sizes*/
   article {
     display: flex;
     flex-wrap: wrap;
-    font-size: 28pt;
   }
 
-  article.welcome {
-    display: flex;
-    width: 100%;
+  article#resume section {
+    width: 400px;
+
   }
 
   article.pod {
@@ -426,16 +442,6 @@ for different screen sizes*/
       styles */
   /*section
         styles*/
-  section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    align-content: center;
-  }
 
   article.mainpersonal section {
     height: 400px;
@@ -445,11 +451,25 @@ for different screen sizes*/
     text-align: left;
   }
 
+  section.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    width: 400px;
+  }
+
+  section.hobbies {
+    width: 400px;
+    height: auto;
+  }
+
   /* other or multiple
       selections */
-  p, ul {
-    font-size: 14pt;
-  }
 }
 
 @media only screen and (max-width: 1843px) {
