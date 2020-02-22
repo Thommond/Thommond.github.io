@@ -4,12 +4,12 @@ for my midterm project as my main HTML and CSS project.
 I have my resume, project links, personal info and more included
 in this website. 
 
-##Usage 
+## Usage 
 
 The main use of my website is for information proffesional and 
 personal about me. 
 
-##Contribution 
+## Contribution 
 
 If you would like to see somthing in my website to change then 
 feel free to start a conversation in the Issues pages. 
